@@ -4,7 +4,7 @@
 
 # Site
 title: Victor Moretti
-subtitle: Art of swearing
+subtitle: The art of swearing
 description: Victor Moretti official blog
 author: Victor Moretti
 language: en
@@ -63,9 +63,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pln #landscape
+theme: meilidu #landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/victormoretti/victormoretti.github.io
+  branch:
+  message:
